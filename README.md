@@ -71,7 +71,7 @@ A conceptual scheme for automatic native construction of a world model by an AI 
 
 How to implement this in practice? I am convinced that we already have all the necessary computational power and almost all the architectural techniques to create such a system.
 
-**GWOT Dynamic MoE + Recursive Latent Reasoning [4]?**
+**GWOT- Dynamic MoE + Recursive Latent Reasoning [4]?**
 
 ---
 
