@@ -1,7 +1,5 @@
 # A Universal Mechanism for Protoscientific Cognition and Natural Hypothesis Induction
 
----
-
 ## What Does It Actually Mean to "Know"?
 
 ### 1. Attention and Memory
@@ -111,13 +109,13 @@ They can identify contradictions and attempt to eliminate them: to bring their p
 
 In this manner, an adaptive knowledge hierarchy is achieved: domains specialize when necessary, while the meta-level evolves, preserving the coherence of the entire conceptual framework.
 
----
-
 ## Conclusion
 
 A conceptual framework has been proposed for the automatic, native construction of a world model by an AI system that is inherently curious, generates hypotheses based on the known, empirically verifies them, retains the verification results, and subsequently utilizes them, without necessitating hundreds of thousands of examples to learn something new.
 
 How can this be implemented in practice? I am convinced that we already possess the requisite computational capacity and nearly all the architectural techniques needed to actualize such a system. The sole remaining question is how to correctly synthesize them.
+
+---
 
 [1] Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, Ł., & Polosukhin, I. (2017). Attention Is All You Need. *arXiv preprint arXiv:1706.03762*. https://arxiv.org/abs/1706.03762
 
