@@ -1,173 +1,123 @@
-# TheoryOfCuriousAGI
+# A Universal Mechanism for Protoscientific Cognition and Natural Hypothesis Induction
 
-# A Universal Mechanism for Cognition Through Analogies, or Transferring Relations of a Known Concept to the One Being Studied
+---
 
-## A Natural Mechanism for De Novo Hypothesis Induction and Verification
+## What Does It Actually Mean to "Know"?
 
-## Problem Statement
+### 1. Attention and Memory
 
-Suppose we have a person who has been interested in the science of botany since childhood — this is their knowledge domain.
-They have no books and have never had any books other than books on botany, and they studied it in isolation from other sciences.
-As a result, this person knows that there are plants. In their mind, a model of the biology domain has formed that contains the concepts of this domain, particularly plants as living organisms, concepts of various plant genera, and so on.
-In other words, in the weights of their neural network reconstructed from books, there is a full graph of the concepts and relationships of the science of botany.
-In particular, this person knows that there are plants such as trees. They know typical species, what they look like, where they grow.
-They know that there are different species with different needs and properties within certain geographic boundaries. Even an isolated domain will still carry redundancy and duplicate part of the information from potential other domains, such as the knowledge domain of geography.
-This person is able to describe any known concept of this domain, but what does that mean? In other words, they are able, for a given previously studied concept, to retrieve related concepts and their relationships.
-In other words, this can be called the ability to find a topological neighborhood for an arbitrarily given concept of a previously learned domain.
-We postulate that throughout their life this person has never heard anything about the knowledge domain (science) of biology.
-However, if this person is offered to explore a new, unknown domain of knowledge — biology — and the introduction starts with this phrase:
+In the most fundamental sense, we begin to speak of knowledge as the ability to recognize the familiar amidst the unfamiliar. "Oh, I know this person," "I have been here," or "I have seen this plant before!"—these are all examples of visual recognition.
 
-"A horse is a living being, but not a plant" — what can our person do with this knowledge?
+They demonstrate the existence of a certain perceptual filter capable of admitting a previously seen and, to some extent, memorized image into consciousness from the general input stream of visual information, filtering out everything extraneous. Based on this, it can be hypothesized that memory itself serves as the foundation for this filtration system (attention).
 
-## A Natural Solution a Person Would Use
+Consequently, without having perceived and memorized certain entities in the past, it is impossible to perceive and memorize any new properties of those entities in the present. But if what was perceived earlier shapes what we can recognize subsequently, how then is it possible to recognize anything new at all? We will formulate our answer to this shortly.
 
-A person would ask — does this horse have roots, or how does it feed?
-And how exactly did the person formulate this hypothesis that a horse must feed on something and why did they presume the existence of roots?
+Many supplementary questions arise here: how is this recognition system implemented within us? We acquire new knowledge in disparate contexts from various knowledge domains, resulting in fragmented knowledge—is there a system for compressing and consolidating these isolated islands of knowledge? How efficient is it, and what are the boundaries of its applicability?
 
-In the domain of botany, the concept of a plant is linked to the concept of feeding, which is implemented mainly through roots.
+What allows for the formation of this perceptual filter in the very beginning and initiates the construction of the entire subsequent worldview in the mind? A plausible answer here is that, initially, the entire stream enters primary memory unfiltered, with virtually no structuring. Recurring patterns are reinforced and survive, triggering the operation of the attention mechanism. This is merely a hypothesis and a tangential topic that one might attempt to explore independently.
 
-It turns out that a person can intuitively project connections from a known concept onto an unknown one! Thus, through the more general parent meta-concept of life, they projected the existing connections of the plant onto the new concept of animal on the basis of their commonality through the parent concept of life.
+### 2. Connections and Regularities
 
-Having projected the connections from one concept onto another, a person can begin cognition with the hypothesis that the projection result is most likely valid in the neighborhood of the new concept of animal, and can formulate tests to check the quality of their projection — ask a question, the answer to which will confirm the correctness of some part of the projection or weaken it!
+"Knowledge" encompasses not only recognizing the familiar among the unfamiliar but also memorizing the connections between two or more familiar phenomena.
 
-Having transferred from botany to biology, a person would hypothesize how animals feed — through roots.
-A logical assumption if you have never seen animals. But how would you continue studying them after learning that there are no roots?
+The first example of connections is visual association: two visual images frequently appear together ("a cloud in the sky," "food on a plate," or "a dog in a kennel"). Name five words associated with the "sky." You likely named something along the lines of stars, the sun, birds, clouds, rain. These are all proximate, interconnected concepts; you previously learned them as related and were able to retrieve them from your world model when thinking about the "sky."
 
-First, you would weaken/cut off the concept of root for the animal based on the interlocutor's answer (or the result of observation).
-Children do this constantly by asking questions about the world around them. They ask questions and memorize answers, some of which they carry for their entire lives.
+A second example of foundational connections, which every individual masters when learning languages, is naming. "I have seen this plant before, this tree is a birch!" Naming constitutes linking a phenomenon with its linguistic designation. When learning a new language, we already possess a world model; we merely need to attach new labels to pre-existing concepts.
 
-But you would still need a concept that fulfills the need for nutrition for a living being. If animals are part of the concept of life, then they have nutrition, which means that based on the input information the topological place of the root must be replaced with some other isomorphic concept as the supplier of nutrition. This is your hypothesis that something must fulfill this concept in the new domain. And you can search for this concept in the external world, ask questions, conduct experiments. And this will allow you to discover that in animals the supplier of nutrition is the concept of the mouth. You arrived at this using projection from the known domain onto the new concept through the common meta-concept of supplier of nutrition.
+Connections can be substantially more complex. They can be extended over time (causality). We refer to such connections as regularities (or patterns). It is currently day, thus it will soon be night. Night has fallen, thus it will soon be day. Snow has fallen—thus, in the future, it will melt and conditions will be wet. "Birch bark burns well"—an individual once learned what a birch looks like and the properties of its bark; they may know nothing of botany, yet this island of several phenomena was established and linked within their memory. The possession of a vast number of such isolated islands of knowledge in individuals is often termed erudition, and these islands serve as the building blocks for constructing a more comprehensive and complete world model.
 
-Moreover, our botanist can continue learning by analogy. They will also be able to assume that the concept of parasitism exists in animals, just as it exists in the domain of botany. Simply by projecting connections from the known domain onto the domain being studied. And they can once again run a check, confirming or refuting this hypothesis, strengthening it or weakening it. This is how dynamic learning happens.
+This can be perceived as an implicit neural network graph of concepts (in lexicology, we categorize them into nouns, adjectives, adverbs, verbs, etc.) and the connections between them. Furthermore, this graph is dynamically constructed and enables, among other things, the retrieval of the context associated with a given concept.
 
-What do we need to be able to do for such dynamic learning?
-- build knowledge domains (new MoE?);
-- extract connections from a domain relative to a given concept;
-- search for isomorphisms in other domains, invariant to scale. Possibly discovering a connection through meta-concepts/parent concepts (plant and animal are both concepts of life);
-- fill gaps in parts of some domains through projection from known parts of other domains (or the same domain), verifying the projection results and either preserving or weakening the connection of the inherited projection;
-- dynamically identify new knowledge domains if new information generates a unique topology unlike anything known before.
+For instance, a cake. Name the first five things associated with a cake that come to mind right now. The words you named represent a sample of concepts interconnected within your world model, which you are capable of extracting based on the current context. How might the word "road" appear among the words describing a cake? Suppose that at the last celebration you received a cake with a road drawn on it, and it was particularly delicious. This image of a road might be retrieved from memory when you recall a cake subsequently.
 
-As a result, we obtain a universal AI model capable of learning quickly, using a new type of native conceptual transfer learning.
+### 3. The General and the Particular: Knowledge Domains
 
-## Mathematics as a Meta-Concept Domain
+During childhood, the knowledge derived from daily life is sufficient for constructing a general world model, foundational for all children.
 
-Of particular interest is the mechanism of forming mathematical concepts through topological transfer.
-Mathematics in this paradigm is groups of similar isomorphisms generated by generalizing recurring patterns across different domains (or their parts).
+> **Important Note:** Any world model is fragmented to a certain degree. The power of intelligence is inherently linked to the ability to eliminate model redundancy, reduce its fragmentation, execute knowledge consolidation, and resolve contradictions.
 
-Consider the concept of quantity. An AI interacting with different domains — counting apples in botany, sheep in animal husbandry, days in the calendar — discovers an invariant topological structure: discrete elements, the operation of union of sets, and the property of commutativity under union. Projecting these recurring patterns into the meta-domain and cutting off context-dependent properties (apple color, sheep breed), the system derives the abstract concept of the natural number and operations on it. Similarly, the concept of continuous change, observed in plant growth, object movement, and temperature change, when projected into the meta-domain generates the concepts of function, limit, derivative.
+Upon the foundation of the basic world model acquired through personal experience, we are subsequently able to study specific, isolated knowledge domains: language, mathematics, physics, chemistry, biology, etc.
 
-The key distinction of the mathematical meta-domain is the highest degree of abstraction. It contains pure topological structures, cleansed of all concrete properties of the original domains. The system can use this meta-domain to instantly transfer mathematical regularities to any new domain where an isomorphic topology is detected. Discovering in an unfamiliar domain a structure isomorphic to a group, the system immediately applies the entire apparatus of group theory without the need for retraining.
+Each academic subject is predicated upon previously known information, building upon acquired concepts. Concurrently, mastering a given subject often does not require a profound understanding of adjacent disciplines, although redundancy and awareness of neighboring domains are present to some extent. Two foundational subjects can be distinguished—language and mathematics—upon which many others are based, developing in tandem with them.
 
-Thus, mathematical thinking emerges not as a separate ability but as a natural consequence of the mechanism of consolidating topologies: discovering common invariants, abstracting them, and forming higher-order meta-concepts. This explains the “unreasonable effectiveness of mathematics” — it is effective because it is a distillation of fundamental topological invariants present in many concrete domains of reality and, in some ways, reflects the (imperfect) fractal nature of existence.
+Frequently, however, knowledge domains exist relatively independently, only occasionally adopting concepts from other fields that have proven useful. For example, physics frequently borrows mathematical apparatuses, while literature relies on linguistic development.
+
+### 4. The Algorithm of Cognition
+
+Suppose we have an individual who was born and raised in a bunker on Mars. They had access exclusively to botany textbooks, with no physical opportunity whatsoever to familiarize themselves with any other sciences.
+
+Consequently, this person knows that plants exist, can draw their primary representatives, and describe their life cycles and requirements. In other words, they know the "Botany" domain. Within their mind, a model of the surrounding world regarding biology has been formed, containing the concepts of this domain (specifically, the plant as a living organism, concepts of various plant genera, etc.).
+
+To put it differently, within the weights of their neural network, a comprehensive graph of the concepts and relationships of the science of "Botany" has been reconstructed from books. Notably, this person knows that there are plants such as trees. They know the typical species, their appearance, and their habitats. They know that various species exist with different needs and properties within specific geographical boundaries. Even an isolated domain will inevitably carry redundancy and duplicate fragments of information from potential alternative domains—such as "Geography," for example.
+
+This individual is capable of discussing any concept known to them within this domain, but what does this entail? It implies that for a given, previously learned concept, they are capable of extracting related concepts and their relations. Alternatively, this can be characterized as the ability to locate the topological neighborhood for an arbitrarily specified concept within a previously learned domain.
+
+Let us postulate that throughout their life, this person has never heard anything of the science of "Biology." However, if the person is invited to comprehend a new, unknown knowledge domain, "Biology," beginning with the following proposition:
+
+*"A horse is a living entity, but not a plant,"*—what would our individual be able to do with this knowledge?
+
+---
+
+## The Natural Human Solution to the Problem
+
+The human would inquire: does this horse have roots, or how does it feed? How, precisely, did the human formulate this hypothesis that a horse must consume something, and why postulate the presence of roots?
+
+In the botany domain, the concept of a plant is linked to the concept of nutrition, which is implemented primarily via roots. It turns out that a human possesses the intuitive ability to project connections from a known concept onto an unknown one! Thus, through the broader parent meta-concept "life," they executed a projection of the connections existing in a "plant" onto the novel concept "animal"—based on their commonality within the parent concept.
+
+Having projected the connections from one concept to another, the human can initiate cognition with the hypothesis that the outcome of the projection is highly likely to be valid within the neighborhood of the new concept "animal." They can formulate tests to verify the quality of their projection—posing a question, the answer to which will either corroborate the validity of a certain portion of the projection or weaken it!
+
+Having performed the transfer from botany to biology, the human would hypothesize how animals feed—via roots. A logical assumption, given they had never seen animals. But how would you proceed to study them further upon learning that there are no roots?
+
+Firstly, you would weaken or sever the concept of "root" for an animal based on the interlocutor's response (or observational result). Children do this constantly, asking questions about the surrounding world. They inquire and memorize the answers, carrying some of them throughout their entire lives.
+
+However, you would still require a concept implementing the biological necessity of nutrition. If animals are a subset of the "life" concept, then nutrition is applicable to them; therefore, based on the input information, the topological locus of the root must be substituted by an alternative, isomorphic concept acting as a nutrient provider. This is your hypothesis—that some structure must operationalize this concept in the new domain. And you can search for this concept in the external world, ask questions, and conduct experiments. This will allow you to discover that for animals, the nutrient provider is the concept "mouth." You arrived at this by utilizing a projection from a known domain to a new one via the shared meta-concept "nutrient provider."
+
+Furthermore, our botanist can continue learning by analogy. They could also hypothesize that the concept of parasitism exists among animals as well, similar to its existence within the botany domain—simply by projecting connections from the known domain onto the one being studied. And once again, they can execute a verification, confirming or refuting this hypothesis, reinforcing or weakening it. This is how dynamic learning occurs.
+
+**What capabilities are required for such dynamic learning?**
+
+* Constructing knowledge domains (a novel MoE?).
+* Extracting connections from a domain relative to a specified concept.
+* Searching for scale-invariant isomorphisms in other domains (potentially detecting links via meta-concepts / parent concepts: plant and animal—both being concepts of life).
+* Filling gaps in certain domains via projection from known fragments of other domains (or the same one), verifying the results, and either preserving or weakening the link of the inherited projection.
+* Dynamically isolating new knowledge domains if novel information engenders a unique topology dissimilar to anything previously known.
+
+Consequently, we will achieve a universal AI model capable of rapid learning via a novel paradigm of native conceptual transfer learning.
+
+---
+
+## Mathematics as a Meta-Conceptual Domain
+
+Of particular interest is the mechanism underlying the formation of mathematical concepts through topological transfer. Mathematics, within this paradigm, constitutes groups of similar isomorphisms generated from the generalization of recurrent patterns across different domains (or fragments thereof).
+
+Let us consider the concept of "quantity." An AI, interacting with disparate domains (counting apples in botany, sheep in animal husbandry, days in a calendar), discovers an invariant topological structure: discrete elements, the operation of set union, and the commutative property of union. By projecting these recurring patterns into a meta-domain and pruning context-dependent properties (the color of apples, the breed of sheep), the system derives the abstract concept of a natural number and operations upon it. Analogously, the concept of "continuous change," observed in plant growth, the motion of objects, or temperature fluctuations, when projected into the meta-domain, generates the concepts of functions, limits, and derivatives.
+
+The defining distinction of the mathematical meta-domain is its maximal degree of abstraction. It contains pure topological structures, distilled from all concrete properties of the source domains. The system can leverage this meta-domain for the instantaneous transfer of mathematical regularities into any new domain where an isomorphic topology is detected. Upon detecting a structure isomorphic to a group within an unfamiliar domain, the system immediately applies the entire apparatus of group theory without the necessity for retraining.
+
+Thus, mathematical reasoning emerges not as an isolated faculty, but as a natural corollary of the topology consolidation mechanism: the detection of shared invariants, their abstraction, and the formation of higher-order meta-concepts. This elucidates the "unreasonable effectiveness of mathematics"—it is effective because it represents the distillation of fundamental topological invariants present across a multitude of concrete domains of reality, reflecting in some manner the (imperfect) fractal nature of existence.
+
+---
 
 ## Knowledge Consolidation
 
-Humans often have fragmented memory and thinking.
-In one context they build one chain of reasoning, in another context — another, and these are often mutually exclusive.
-People say “they say one thing, then another,” and this inconsistency is likely a normal property of our thinking that can be smoothed but not completely eliminated everywhere at once.
+In human beings, memory and cognition are frequently fragmented. In one context, an individual constructs specific chains of reasoning; in another, they construct different ones, which are often mutually exclusive. This is colloquially described as "saying one thing and then another," or being inconsistent. This is likely a normative property of our cognition, which one might attempt to smooth over, but which cannot be eradicated entirely, instantaneously, and ubiquitously.
 
-A self-aware person can combat this only through reflection on their knowledge and thoughts. Why do I think/assume this? Why do I think B in situation A, and C in situation D? Where do I know this from? Are there contradictions here, am I unbiased in my conclusions?
+A conscious individual can counteract this solely through reflection upon their knowledge and thoughts: *"Why do I think this way? Why in situation A do I think B, yet in situation D I think C? Where does this knowledge originate? Are there contradictions here; am I impartial in my conclusions?"*
 
-They can identify contradictions and attempt to resolve them. Bring their views to a common denominator, remove logical contradictions in their worldview, **consolidate the world model**. Two operations are involved:
+They can identify contradictions and attempt to eliminate them: to bring their perspectives to a common denominator, to eradicate logical conflicts within the worldview, to **consolidate the world model**. Two operations exist for this purpose:
 
-1. **Remove the component of personal perception** stored in memory from the final reasoning. “I like democrats → what democrats do carries a positive evaluation.” In fact, there should be no positive evaluation in my logical reasoning; any evaluations should be given to arguments and consequences, not to the author’s reputation, which can only serve as an initial criterion for a quick assessment without thinking. Democrats can also do bad things that should receive their negative evaluations without cognitive distortion due to personal predisposition toward them.
+1. **Exclude the subjective perception component**, inscribed in memory, from the final reasoning. For example: *"I favor the Democrats → therefore, the actions of the Democrats warrant positive appraisal."* Factually, however, positive appraisal has no place in logical reasoning: any evaluations must be applied to arguments and consequences, not to the author's reputation, which should serve merely as a criterion for rapid heuristic assessment without superfluous deliberation. Democrats are equally capable of performing negative actions, which must receive corresponding negative evaluations devoid of cognitive bias stemming from personal predisposition towards them.
+2. **Consolidate the fragmented world model.** It may transpire that during the cognitive process, domain fragments with identical topologies were created. The objective is to identify such topologies and strengthen their connection with the overarching topology of the meta-model (the model of meta-concepts), consolidating the domain topologies with it. Upon detecting irreconcilable contradictions where domain topologies genuinely diverge due to factual discrepancies between entities, the system must **either** dynamically spawn a novel (sub)domain (or amplify the divergence by linking it to its root cause), capturing the unique topological patterns; **or** adjust the meta-domain, expanding its conceptual space to account for the identified divergences while preserving the overarching invariants.
 
-2. **Consolidate a fragmented world model.** It may turn out that in the course of cognition, fragments of domains with identical topology were created. The task is to find such topologies and strengthen their connection with the overall topology of the meta-model (the model of meta-concepts), consolidating the domain topologies with it. When irreconcilable contradictions are found, where domain topologies truly diverge due to factual differences between entities, the system must:
-   - **and/or dynamically create a new (sub)domain or strengthen the divergence by linking it with the cause of the divergence** (or a separate domain), fixing unique topological patterns;
-   - **and/or adjust the meta-domain**, expanding its conceptual space to account for the identified divergences and preserve common invariants.
+In this manner, an adaptive knowledge hierarchy is achieved: domains specialize when necessary, while the meta-level evolves, preserving the coherence of the entire conceptual framework.
 
-This achieves an adaptive hierarchy of knowledge: domains specialize when necessary, and the meta-level evolves while preserving the consistency of the entire system of representations.
+---
 
 ## Conclusion
 
-A conceptual scheme is proposed for the automatic native construction of a world model by an AI system that is inherently curious, builds hypotheses based on what is known, verifies them, remembers the verification results, and uses them further, without requiring hundreds of thousands of examples to study something new.
+A conceptual framework has been proposed for the automatic, native construction of a world model by an AI system that is inherently curious, generates hypotheses based on the known, empirically verifies them, retains the verification results, and subsequently utilizes them, without necessitating hundreds of thousands of examples to learn something new.
 
-How can this be implemented in practice? I am convinced that we already have all the necessary computational power and nearly all the architectural techniques to create such a system; the only question is how to combine them correctly.
-
-# Универсальный механизм познания через аналогии ИЛИ трансфер связей известного концепта, относительно изучаемого.
-
-## Естественный механизм индукции de novo гипотез и их верификации
-
-## Постановка задачи
-
-Пусть у нас есть человек, который с детства интересуется наукой «Ботаника» — это его домен знаний.
-У него нет и не было никаких книг, кроме книг по ботанике и он изучал её изолированно от других наук.
-Как следствие этот человек знает, что существуют растения. У него в голове сформирована модель предметной области биологии, в которой есть концепты данного домена, в частности растения как живого организма, концепты различных родов растений и т. д.
-Иными словами в весах его нейросети из книг восстановлен полноценный граф концептов и их отношений науки «Ботаника».
-В частности, этот человек знает, что есть такие растения как деревья. Знает типовые виды, как они выглядят, где растут.
-Знает что бывают разные виды с различными потребностями и свойствами в рамках определённых географических границ. Даже изолированный домен так или иначе будет нести избыточность и дублировать часть информации из потенциальных иных доменов, как, например, домен знаний «География».
-Этот человек способен рассказать про любой известный ему концепт этого домена, но что это значит? Иными словами он способен для заданного ранее изученного концепта извлечь связанные с ним понятия и их отношения.
-По другому это можно назвать способностью находить топологическую окрестность для произвольно заданного концепта выученного ранее домена.
-Постулируем, что за всю жизнь этот человек никогда ничего не слышал о домене знаний (науке) «Биология».
-Однако, если челоеку предложат познать новый, неизвестный ему домен знаний «Биология» и начнут с такой фразы:
-
-«Лошадь это живое существо, но не растение» — что наш человек сможет сделать с этим знанием?
-
-## Натуральное решение задачи человеком
-
-Человек бы спросил - а есть ли у этой лошади корни, или как она питается?
-А как собственно человек сформулировал эту гипотезу о том, что лошадь должна чем-то питаться и почему предположил наличие корней?
-
-В домене ботаники концепт растения связан с концептом и питания, который реализуется в основном посредством корней. 
-
-Оказывается, человек умеет интуитивно проецировать связи с известного ему концепта на неизвестный! Таким образом он через более общий родительский мета-концепт «жизнь» сделал проекцию существующих у «растения» связей на новый концепт «животное», на основании их общности по родительскому концепту «жизнь».
-
-Сделав проекцию связей с одного концепта на другой, человек может начать познание с гипотезы, что результат проекции наиболее вероятно валиден в окрестности нового концепта «животное», и может сформулировать тесты для проверки качества своей проекции — задать вопрос, ответ на который зафиксирует верность какой-то части проекции, или ослабит её! 
-
-Сделав перенос из ботаники в биологию, человек предположил бы как питаются животные — корнями.
-Логичное предположение, если вы никогда не видели животных. Но как бы вы стали изучать их дальше, узнав, что корней нет?
-
-Во-первых, вы бы ослабили/отрезали концепт «корня» для животного на основе ответа собеседника (или результата наблюдения).
-Дети делают это постоянно задавая вопросы об окружающем мире. Они задают вопросы и запоминают ответы, с некоторыми из которых порой ходят всю жизнь.
-
-Но вам по-прежнему был бы нужен концепт, реализующий потребность в питании для живого. Если животные — часть концепта «жизнь», то питание у них есть, значит, на основе входной информации топологическое место корня должно быть замещено иным изоморфным концептом как поставщиком питания. Это ваша гипотеза, что что-то должно реализовывать этот концепт в новом домене. И вы можете искать этот концепт во внешнем мире, задавать вопросы, ставить опыты. И позволит вам узнать, что у животных поставщик питания — концепт «рот». Вы пришли к этому, использовав проекцию с известного домена на новый, через общий мета-концепт «поставщик питания».
-
-Более того, наш ботаник может продолжить познание по аналогии. Он также сможет предположить, что концепт паразитизма существует и у животных, подобно тому как он существует в домене ботаники. Просто спроецировав связи из известного домена на изучаемый домен. И он вновь может провести проверку, подтвердив или опровергнув эту гипотезу, закрепив её или ослабив. Так происходит динамическое обучение.
-
-Что нам нужно уметь для такого динамического обучения?
-- строить домены знаний (new MoE?);
-- выделять связи из домена относительно заданного концепта;
-- инвариантно к масштабу искать изоморфизмы в других доменах. Возможно обнаруживая связь через мета-концепты/концепты-родители (растение и животное — оба являются концептами жизни);
-- заполнять пробелы в частях одних доменов через проекцию из известных частей других доменов (или этого же), производя проверку результатов проекции и либо сохраняя, либо ослабляя связь унаследованной проекции;
-- динамически выделять новые домены знаний, если новая информация порождает уникальную топологию, не похожую ни на что известное ранее.
-
-Как результат мы получим универсальную модель ИИ, способную быстро обучаться, используя новый тип нативного концептуального трансфер-лёрнинга.
-
-## Математика как мета-концептный домен
-
-Особый интерес представляет механизм формирования математических концептов через топологический трансфер.
-Математика в этой парадигме — это группы схожих изоморфизмов, порождённых из обобщения повторяющихся паттернов в разных доменах (их частях).
-
-Рассмотрим концепт «количество». AI, взаимодействуя с разными доменами — считая яблоки в ботанике, овец в животноводстве, дни в календаре — обнаруживает инвариантную топологическую структуру: дискретные элементы, операцию объединения множеств, свойство коммутативности при объединении. Проецируя эти повторяющиеся паттерны в мета-домен и отсекая контекстно-зависимые свойства (цвет яблок, порода овец), система выводит абстрактный концепт натурального числа и операций над ним. Аналогично, концепт «непрерывного изменения», наблюдаемый в росте растений, движении объектов, изменении температуры, при проекции в мета-домен порождает концепты функции, предела, производной.
-
-Ключевое отличие математического мета-домена — максимальная степень абстракции. Он содержит чистые топологические структуры, очищенные от всех конкретных свойств исходных доменов. Система может использовать этот мета-домен для мгновенного переноса математических закономерностей в любой новый домен, где обнаруживается изоморфная топология. Обнаружив в незнакомом домене структуру, изоморфную группе, система немедленно применяет весь аппарат теории групп без необходимости повторного обучения.
-
-Таким образом, математическое мышление возникает не как отдельная способность, а как естественное следствие механизма консолидации топологий: обнаружение общих инвариантов, их абстрагирование и формирование мета-концептов высшего порядка. Это объясняет «непостижимую эффективность математики» — она эффективна потому, что является дистилляцией фундаментальных топологических инвариантов, присутствующих во множестве конкретных доменов реальности и отражающих в чём-то (несовершенную) фрактальную природу бытия.
-
-## Консолидация знаний
-
-У человека часто так бывает, что его память и мышление фрагментарны.
-В одном контексте он строит одни цепочки рассуждений, в другом контексте — другие, причём зачастую взаимоисключающие.
-Про это говорят что «человек говорит то одно, то другое», непоследователен. Вероятно это нормальное свойство нашего мышления, которое можно пытаться сгладить, но от которого полностью сразу и везде не избавиться. 
-
-Осознанный человек может с этим бороться только посредством рефлексии над своими знаниями и мыслями. А почему я так думаю/так считаю? Почему в ситуации А я думаю Б, а в ситуации Д я думаю С? А откуда я это знаю? Нет ли тут противоречий, беспристрастен ли я в своих выводах?
-
-Он может выявить противоречия и попытаться их устранить. Привести свои взгляды к общему знаменателю, убрать логические противоречия в картине мира, **консолидировать модель мира**. Для этого есть две операции:
-
-1. **Убрать компоненту личного восприятия**, записанную в памяти, из итогового рассуждения. «Я люблю демократов → то, что делают демократы, несёт позитивную оценку». Однако по факту позитивной оценки в моих логических рассуждениях быть не должно, какие-либо оценки должны даваться аргументам и следствиям, а не репутации автора, которая может быть лишь изначальным критерием для быстрой оценки не задумываясь. Демократы тоже могут делать плохие вещи, которые должны получать свои негативные оценки без когнитивного искажения за счёт личной предрасположенности у ним.  
-
-2. **Консолидировать фрагментарную модель мира**. Так может оказаться, что в процессе познания были созданы фрагменты доменов с одинаковой топологией. Задача найти такие топологии и усилить их связь с общей топологией мета-модели (модели мета концепций), консолидировать топологии доменов с ней. При обнаружении неустранимых противоречий, где доменные топологии действительно расходятся ввиду фактических различий между сущностями, система должна:
-   - **и/или динамически создавать новый (суб)домен или усилить расхождение связав его с причиной расхождения** (или отдельный домен), фиксирующий уникальные топологические паттерны;
-   - **и/или скорректировать мета-домен**, расширяя его концептуальное пространство для учёта выявленных расхождений и сохранения общих инвариантов.
-
-Таким образом достигается адаптивная иерархия знаний: домены специализируются при необходимости, а мета-уровень эволюционирует, сохраняя согласованность всей системы представлений.
-
-## Заключение
-
-Предложена концептуальная схема автоматического нативного построения модели мира AI-системой, которая по сути своей любопытна, строит гипотезы на основе известного проверяет их, запоминает результаты проверки и использует их далее, не требует сотен тысяч примеров для изучения нового.
-
-Как это реализовать на практике? Я убеждён, что у нас уже есть все необходимые вычислительные мощности и почти все архитектурные приёмы для создания такой системы, весь вопрос лишь в том, как правильно их скомбинировать.
-
+How can this be implemented in practice? I am convinced that we already possess the requisite computational capacity and nearly all the architectural techniques needed to actualize such a system. The sole remaining question is how to correctly synthesize them.
 
 [1] Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, Ł., & Polosukhin, I. (2017). Attention Is All You Need. *arXiv preprint arXiv:1706.03762*. https://arxiv.org/abs/1706.03762
 
@@ -178,4 +128,3 @@ How can this be implemented in practice? I am convinced that we already have all
 [4] Jolicoeur-Martineau, A., et al. (2025). Less is More: Recursive Reasoning with Tiny Networks. *arXiv preprint arXiv:2510.04871*. https://arxiv.org/abs/2510.04871
 
 [5] Kawakita, G., Zeleznikow-Johnston, A., Takeda, K., Tsuchiya, N., & Oizumi, M. (2024). Is my "red" your "red"?: Evaluating structural correspondences between color similarity judgments using unsupervised alignment. *Scientific Reports*, 14(1), 15917. https://doi.org/10.1038/s41598-024-65604-1
-
